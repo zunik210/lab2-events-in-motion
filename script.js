@@ -61,18 +61,6 @@ function showHistory() {
     document.getElementById("history").innerHTML = historyText;
 }
 
-//window size function
-function updateWindowSize() {
-    document.getElementById("windowSize").innerHTML =
-        "Window size: " + window.innerWidth + " x " + window.innerHeight;
-}
-
-updateWindowSize();
-
-window.onresize = function() {
-    updateWindowSize();
-};
-
 //clock function
 function updateClock() {
     let currentTime = new Date();

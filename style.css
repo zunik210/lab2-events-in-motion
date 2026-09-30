@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    background-color: #f3add0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hoverBox {
+    width: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(248, 224, 238);
+    border: 2px solid rgb(93, 0, 56);
+}
+
+#reactionMessage {
+    font-weight: bold;
+    min-height: 25px;
+}
+
+#keyMessage {
+    padding: 15px;
+}
+
+#clock {
+    margin: 10px;
+}
+
+#history {
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgb(93, 0, 56);
+}
